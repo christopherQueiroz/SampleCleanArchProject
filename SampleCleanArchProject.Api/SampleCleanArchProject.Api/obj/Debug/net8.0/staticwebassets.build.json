@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "XjdApErLJKPsWncweLipAcCcnSTlHDY8eRa28/5SMEk=",
+  "Source": "SampleCleanArchProject.Api",
+  "BasePath": "_content/SampleCleanArchProject.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
