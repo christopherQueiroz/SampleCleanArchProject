@@ -42,10 +42,7 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
-
 *.log
 logs/
-
 packages/
-
 Thumbs.db
