@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj",
       "projectName": "SampleCleanArchProject.Domain",
-      "projectPath": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj",
+      "projectPath": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj",
       "packagesPath": "C:\\Users\\chque\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

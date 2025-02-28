@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data.csproj": {}
+    "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj": {
+    "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj",
         "projectName": "SampleCleanArchProject.Domain",
-        "projectPath": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj",
+        "projectPath": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj",
         "packagesPath": "C:\\Users\\chque\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\obj\\",
+        "outputPath": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data.csproj": {
+    "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data.csproj",
         "projectName": "SampleCleanArchProject.Infra.Data",
-        "projectPath": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data.csproj",
+        "projectPath": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\chque\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\obj\\",
+        "outputPath": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Infra.Data\\SampleCleanArchProject.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\Curso_clean_arq\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj"
+              "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Curso_clean_arq\\Project\\SampleCleanArchProject\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain\\SampleCleanArchProject.Domain.csproj"
               }
             }
           }
