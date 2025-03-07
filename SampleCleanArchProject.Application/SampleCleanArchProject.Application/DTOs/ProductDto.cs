@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace SampleCleanArchProject.Application.DTOs
 {
@@ -11,31 +12,28 @@ namespace SampleCleanArchProject.Application.DTOs
 
         [Required(ErrorMessage = "The name is required")]
         [DisplayName("Name")]
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
 
         [Required(ErrorMessage = "The description is required")]
         [DisplayName("Description")]
-        public string Description { get; private set; }
+        public string Description { get; set; }
 
         [Required(ErrorMessage = "The price is required")]
         [Column(TypeName ="decimal(18,2)")]
         [DisplayFormat(DataFormatString ="{0:C2}")]
         [DataType(DataType.Currency)]
         [DisplayName("Price")]
-        public decimal Price { get; private set; }
+        public decimal Price { get; set; }
 
         [Required(ErrorMessage ="Stock is required")]
         [Range(1,9999)]
         [DisplayName("Stock")]
-        public int Stock { get; private set; }
+        public int Stock { get; set; }
 
         [DisplayName("Product Image")]
-        public string Image { get; private set; }
+        public string Image { get; set; }
 
         public int CategoryId { get; set; }
-
-        [DisplayName("Categories")]
-        public Category Category { get; set; }
     }
 }

@@ -29,13 +29,6 @@ namespace SampleCleanArchProject.Application.Services
             return _mapper.Map<ProductDto>(product);
         }
 
-        public async Task<ProductDto> GetProductCategory(int? id)
-        {
-            var product = await _repository.GetProductCategoryAsync(id);
-
-            return _mapper.Map<ProductDto>(product);
-        }
-
         public async Task Add(ProductDto product)
         {
             var productEntity = _mapper.Map<Product>(product);

@@ -2,15 +2,18 @@
 using SampleCleanArchProject.Domain.Entities;
 using SampleCleanArchProject.Domain.Interfaces;
 using SampleCleanArchProject.Infra.Data.Context;
+using System.Data;
 
 namespace SampleCleanArchProject.Infra.Data.Repositories
 {
     public class CategoryRepository : ICategoryRepository
     {
-        ApplicationDbContext _categoryContext;
+        private readonly ApplicationDbContext _categoryContext;
+       // private readonly IDbConnection _connection;
         public CategoryRepository(ApplicationDbContext context)
         {
             this._categoryContext = context;
+           // this._connection = connection;
         }
         public async Task<Category> CreateAsync(Category category)
         {

@@ -2,12 +2,14 @@
 using SampleCleanArchProject.Domain.Entities;
 using SampleCleanArchProject.Domain.Interfaces;
 using SampleCleanArchProject.Infra.Data.Context;
+using System.Data;
 
 namespace SampleCleanArchProject.Infra.Data.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        ApplicationDbContext _productContext;
+        private readonly ApplicationDbContext _productContext;
+       // private readonly IDbConnection _connection;
 
         public ProductRepository(ApplicationDbContext context)
         {
@@ -25,12 +27,6 @@ namespace SampleCleanArchProject.Infra.Data.Repositories
         public async Task<Product> GetByIdAsync(int? id)
         {
             return await _productContext.Products.FindAsync(id);
-        }
-
-        public async Task<Product> GetProductCategoryAsync(int? id)
-        {
-            return await _productContext.Products.Include(c => c.Category)
-                .SingleOrDefaultAsync(p => p.Id == id);
         }
 
         public async Task<IEnumerable<Product>> GetProductsAsync()
