@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SampleCleanArchProject.Domain.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using SampleCleanArchProject.Infra.Data.Identity;
 
 namespace SampleCleanArchProject.Infra.Data.Context
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) 
             : base(options) { }

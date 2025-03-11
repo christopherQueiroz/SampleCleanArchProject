@@ -1,11 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SampleCleanArchProject.Application.Interfaces;
 using SampleCleanArchProject.Application.Mappings;
 using SampleCleanArchProject.Application.Services;
+using SampleCleanArchProject.Domain.Account;
 using SampleCleanArchProject.Domain.Interfaces;
 using SampleCleanArchProject.Infra.Data.Context;
+using SampleCleanArchProject.Infra.Data.Identity;
 using SampleCleanArchProject.Infra.Data.Repositories;
 
 namespace SampleCleanArchProject.Infra.IoC
@@ -23,9 +26,16 @@ namespace SampleCleanArchProject.Infra.IoC
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext)
                 .Assembly.FullName)));
 
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.AddScoped<IAuthenticate, AuthenticateService>();
+            services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
+
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
-
+             
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
 

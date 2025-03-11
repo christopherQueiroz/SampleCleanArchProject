@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SampleCleanArchProject.Application.DTOs;
 using SampleCleanArchProject.Application.Interfaces;
@@ -9,6 +10,7 @@ namespace SampleCleanArchProject.Api.Controllers
 {
     [ApiExplorerSettings(IgnoreApi = false)]
     [ApiController]
+    [Authorize]
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryService _service;
@@ -44,7 +46,7 @@ namespace SampleCleanArchProject.Api.Controllers
         {
             var response = await _service.GetCategories();
 
-            return _mapper.Map<IEnumerable<CategoryResponse>>(response);
+             return _mapper.Map<IEnumerable<CategoryResponse>>(response);
         }
 
         [HttpGet]
