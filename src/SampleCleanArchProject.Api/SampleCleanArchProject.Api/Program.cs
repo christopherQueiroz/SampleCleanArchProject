@@ -5,6 +5,12 @@ using SampleCleanArchProject.Infra.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar para o Kestrel escutar na porta 80 e em todas as interfaces
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(80); // A API vai escutar na porta 80
+});
+
 // Add services to the container.
 
 builder.Services.AddControllers();

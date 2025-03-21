@@ -11,19 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{DD5D5234-0387-4D7B-B171-D3F28B6ED32C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Domain", "SampleCleanArchProject.Domain\SampleCleanArchProject.Domain\SampleCleanArchProject.Domain.csproj", "{A787E2F9-C0CB-4F1D-8E8A-FB6CB8A2247E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Domain", "src\SampleCleanArchProject.Domain\SampleCleanArchProject.Domain\SampleCleanArchProject.Domain.csproj", "{A787E2F9-C0CB-4F1D-8E8A-FB6CB8A2247E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Application", "SampleCleanArchProject.Application\SampleCleanArchProject.Application\SampleCleanArchProject.Application.csproj", "{2019AF20-910F-45EC-A13C-6C02998A3299}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Application", "src\SampleCleanArchProject.Application\SampleCleanArchProject.Application\SampleCleanArchProject.Application.csproj", "{2019AF20-910F-45EC-A13C-6C02998A3299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Infra.Data", "SampleCleanArchProject.Infra.Data\SampleCleanArchProject.Infra.Data\SampleCleanArchProject.Infra.Data.csproj", "{A735B729-71DE-484D-B86A-8BB524F76A23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Infra.Data", "src\SampleCleanArchProject.Infra.Data\SampleCleanArchProject.Infra.Data\SampleCleanArchProject.Infra.Data.csproj", "{A735B729-71DE-484D-B86A-8BB524F76A23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Infra.IoC", "SampleCleanArchProject.Infra.IoC\SampleCleanArchProject.Infra.IoC\SampleCleanArchProject.Infra.IoC.csproj", "{F023C628-F11E-450B-8B24-FFA87D75A0E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Infra.IoC", "src\SampleCleanArchProject.Infra.IoC\SampleCleanArchProject.Infra.IoC\SampleCleanArchProject.Infra.IoC.csproj", "{F023C628-F11E-450B-8B24-FFA87D75A0E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Api", "SampleCleanArchProject.Api\SampleCleanArchProject.Api\SampleCleanArchProject.Api.csproj", "{03E23B25-22D4-4A81-8667-7C4A82F0C943}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Api", "src\SampleCleanArchProject.Api\SampleCleanArchProject.Api\SampleCleanArchProject.Api.csproj", "{03E23B25-22D4-4A81-8667-7C4A82F0C943}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{1499D295-4506-4FDD-BF83-5433841C4E67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Domain.Tests", "SampleCleanArchProject.Domain.Tests\SampleCleanArchProject.Domain.Tests\SampleCleanArchProject.Domain.Tests.csproj", "{888BF1B7-5436-4577-BC0D-3EF3974A9297}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCleanArchProject.Domain.Tests", "src\SampleCleanArchProject.Domain.Tests\SampleCleanArchProject.Domain.Tests\SampleCleanArchProject.Domain.Tests.csproj", "{888BF1B7-5436-4577-BC0D-3EF3974A9297}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
